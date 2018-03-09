@@ -62,6 +62,13 @@ body {
 	width: 100%;
 }
 
+.tm-table { 
+	max-width: 899px;
+     table-layout: fixed;
+	width: 100%;
+}
+
+
 .tm-welcome-text {
 	background-color: rgba(221, 221, 221, 0.35);
 	padding: 40px;	
@@ -86,9 +93,12 @@ body {
 .tm-gray-bg { background-color: #F4F4F4; }
 .tm-blue-text { color: #3C89D6; }
 .tm-red-text { color: #D66363; }
-.tm-box-pad { padding: 45px 40px; }
+.tm-box-pad { padding: 45px 35px; }
 .tm-bordered-box { border: 1px solid #993366; }
 .tm-no-border-top { border-top: none; }
+.tm-no-border-left { border-left: none; }
+.tm-no-border-right { border-right: none; }
+.tm-no-border-bottom { border-bottom: none; }
 .tm-flex { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
 .tm-contact-left-half, .tm-contact-right-half { 
